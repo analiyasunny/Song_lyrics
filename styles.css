@@ -1,0 +1,41 @@
+body {
+    font-family: serif;
+    line-height: 1.5;
+    color: #0f0e0e;
+}
+
+h1, h2 {
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('Frozen.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+header, main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #2ea1b3;
+    opacity: 75.6%;
+}
+
+main {
+    flex: 1;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #2ea1b3;
+    color: #fff;
+}
